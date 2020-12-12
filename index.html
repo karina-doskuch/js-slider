@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Slider JS</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="libs/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div id="carousel" class="carousel">
+    <div id="slides" class="slides">
+      <div class="slide active" style="background-image: url(assets/img/city3.jpg);"></div>
+      <div class="slide" style="background-image: url(assets/img/city2.jpg);"></div>
+      <div class="slide" style="background-image: url(assets/img/city1.jpg);"></div>
+      <div class="slide" style="background-image: url(assets/img/city4.jpg);"></div>
+      <div class="slide" style="background-image: url(assets/img/city5.jpg);"></div>
+    </div>
+
+    <ol id="indicators" class="indicators">
+      <li class="indicator active" data-slide-to="0"></li>
+      <li class="indicator" data-slide-to="1"></li>
+      <li class="indicator" data-slide-to="2"></li>
+      <li class="indicator" data-slide-to="3"></li>
+      <li class="indicator" data-slide-to="4"></li>
+    </ol>
+
+    <div class="controls">
+      <span id="pause-btn" class="contol control-pause"><i class="far fa-pause-circle"></i></span>
+      <span id="prev-btn" class="control-prev"><i class="fas fa-angle-left"></i></span>
+      <span id="next-btn" class="control-next"><i class="fas fa-angle-right"></i></span>
+    </div>
+  </div>
+  <script src="assets/js/carousel.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
